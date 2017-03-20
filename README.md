@@ -1,7 +1,10 @@
 # Minu Poska Androidi äpp
 
 Androidi äpp, mis ühendab nutikalt õppeinfosüsteemi ja tunniplaanid. / Android app, that intelligently combines school's info system and timetables.
+
 Esialgselt ProgeTiigri konkursi jaoks valminud äpi edasiarendus. Minu Poska äpp on GitHubis, et inspireerida noori ning pakkuda lihtsasti muudetavat skeletti kooliäppidele. 
+
+Äpp Play Store's: <https://play.google.com/store/apps/details?id=ee.tartu.jpg>.
 
 <img src="/graphics/screenshots/Screenshot_1490025950_framed.png?raw=true" width="250"><img src="/graphics/screenshots/Screenshot_1490025943_framed.png?raw=true" width="250"><img src="/graphics/screenshots/Screenshot_1490025837_framed.png?raw=true" width="250">
 
