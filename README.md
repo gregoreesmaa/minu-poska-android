@@ -1,11 +1,9 @@
 # Minu Poska Androidi äpp
 
 Androidi äpp, mis ühendab nutikalt õppeinfosüsteemi ja tunniplaanid. / Android app, that intelligently combines school's info system and timetables.
-
+Esialgselt ProgeTiigri konkursi jaoks valminud äpi edasiarendus. Minu Poska äpp on GitHubis, et inspireerida noori ning pakkuda lihtsasti muudetavat skeletti kooliäppidele. 
 
 <img src="/graphics/screenshots/Screenshot_1490025950_framed.png?raw=true" width="250"><img src="/graphics/screenshots/Screenshot_1490025943_framed.png?raw=true" width="250"><img src="/graphics/screenshots/Screenshot_1490025837_framed.png?raw=true" width="250">
-
-Esialgselt ProgeTiigri konkursi jaoks valminud äpi edasiarendus. Minu Poska äpp on GitHubis, et inspireerida noori ning pakkuda lihtsasti muudetavat skeletti kooliäppidele. 
 
 ## Miks peaks minu kool seda kasutama?
   - Stuudiumi integratsioon ([Stuudiumi API](https://github.com/stuudium/API))
