@@ -1,0 +1,287 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Muq Poska</string>
+
+    <!-- Activities -->
+    <string name="activity_login_title">Mineq nimega sisse</string>
+    <string name="activity_events_title">As\'aq</string>
+    <string name="activity_assignments_title">Ülesandõq</string>
+    <string name="activity_events_and_assignments_title">As\'aq ja ülesandõq</string>
+    <string name="activity_messages_title">Sõnomiq</string>
+    <string name="activity_tera_title">TERA</string>
+    <string name="activity_my_schedule_title">Muq aoplaan</string>
+    <string name="activity_schedules_title">Aoplaaniq</string>
+    <string name="activity_settings_title">Säädmine</string>
+
+    <!-- Notifications -->
+    <string name="lesson_notification_title">Järgmäne tunn</string>
+    <string name="homework_notification_title">Järgmäne koolipäiv</string>
+    <string name="homework_notification_1">Tegemäldä ülesannõq ainõn %1$s</string>
+    <string name="homework_notification_n">Tegemäldä ülesandõq ainin: %1$s</string>
+
+    <!-- Drawer items -->
+    <string name="open">Tiiq vallalõ</string>
+    <string name="close">Panõq kinniq</string>
+
+    <!-- Calendar -->
+    <string name="today">Täämbä</string>
+    <string name="yesterday">Eeläq</string>
+    <string name="day_before_yesterday">Üle-eeläq</string>
+    <string name="tomorrow">Hummõn</string>
+    <string name="day_after_tomorrow">Ülehummõn</string>
+
+    <string name="last">Minnev</string>
+    <string name="next">Tulõv</string>
+    <string name="since">Alostõn</string>
+
+    <string name="monday">Iispäiv</string>
+    <string name="monday_short">Ii</string>
+    <string name="tuesday">Tõsõpäiv</string>
+    <string name="tuesday_short">Tõ</string>
+    <string name="wednesday">Kolmapäiv</string>
+    <string name="wednesday_short">Ko</string>
+    <string name="thursday">Neläpäiv</string>
+    <string name="thursday_short">Ne</string>
+    <string name="friday">Riidi</string>
+    <string name="friday_short">Ri</string>
+    <string name="saturday">Puulpäiv</string>
+    <string name="saturday_short">Pu</string>
+    <string name="sunday">Pühapäiv</string>
+    <string name="sunday_short">Pü</string>
+
+    <!-- Kodused ülesanded -->
+    <string name="show_earlier_tasks">näüdäq minevit koolitöid ↑</string>
+    <string name="test">Kontrolltüü</string>
+
+    <!-- Web -->
+    <string name="html_error_page" formatted="false"><![CDATA[<html><center><strong>H&auml;da: %s</strong><br><a href=\"%s\">Vaodaq sii&auml;q, et vahts&otilde;st pruumiq.</a></center></html>]]></string>
+
+    <!-- Timetable -->
+    <string name="action_choose_filter">Valiq vällä</string> <!-- TODO kääne? -->
+
+    <string name="select_filter_title">Valiq filtriq</string>
+    <string name="filter_form">Klass</string>
+    <string name="filter_teacher">Oppaja</string>
+    <string name="filter_classroom">Klassitarõ</string>
+    <string name="filter_subject">Opiainõq</string>
+    <string name="filter_all">Kõik</string>
+    <string name="select_timetable_title">Valiq aoplaan</string>
+
+    <string name="last_modified">Viimäte muudõt</string>
+    <string name="last_checked">Viimäte kaet</string>
+
+    <!-- Preferences -->
+    <string name="preference_log_out_summary">Läät Stuudiumist uma nime alt vällä.</string>
+    <string name="preference_log_out">Mineq uma nime alt vällä</string>
+    <string name="preference_display_event_notifications_summary">Näütäs teedüst vahtsidõ Stuudiumi asjo kotsilõ. Kaes üle egä 30 minodi takast.</string>
+    <string name="preference_display_homework_notification_summary">Näütäs teedüst järgmädse päävä ülesandidõga. Näüdätäs 17.00 ja 10.00 vaihõl.</string>
+    <string name="preference_display_lesson_notification_summary">Näütäs teedüst järgmädse tunni kotsilõ. Näüdätäs 45 minotit inne kooniq 15 minotit päält tunni algust</string>
+    <string name="preference_display_event_notifications_title">Annaq mullõ as\'ost teedäq</string>
+    <string name="preference_display_homework_notification_title">Annaq mullõ ülesandidõ kotsilõ teedäq</string>
+    <string name="preference_display_lesson_notification_title">Annaq mullõ järgmädsest tunnist teedäq</string>
+    <string name="preference_language_switcher_summary">Valiq, määntsen keelen pruukjapalõt näüdätäs.</string>
+    <string name="preference_language_switcher_title">Valiq pruukjapalgõ kiil</string>
+
+    <string name="preference_log_out_confirmation">Olõt sa kimmäs, et tahat Stuudiumist uma nime alt vällä minnäq?</string>
+
+    <string name="cancel">Jätäq katski</string>
+
+    <string name="language_english">Inglüse (English)</string>
+    <string name="language_estonian">Eesti (Eesti)</string>
+    <string name="language_german">S\'aksa (Deutsch)</string>
+    <string name="language_russian">Vinne (Русский)</string>
+    <string name="language_voro">Võro</string>
+
+    <!-- EULA -->
+    <string name="welcome_to_my_poska_app">Olõq terveq tulõma Muq Poska äppi</string>
+    <string name="welcome_text">Inne ku pääle nakkat, loeq järgmäne jutt läbi. Tuu lätt kipõstõ.</string>
+    <string name="eula_legal_text">Äpi ommaq tennüqä Eesmaa Gregor ja Õunapuu Helen, umaniguq ommaq Tarto Jaan Poska Gümnaasium ja Stuudium. Ütski osapuul võta-ai vastutust tuu iist, et kõik andmõq kimmähe õigõq ommaq.</string>
+    <string name="accept">Jääq nõuhtõ</string>
+    <string name="decline">Ärq jääguq nõuhtõ</string>
+
+
+    <!-- Data translation -->
+    <string name="data_ja">ja</string>
+    <string name="data_või">vai</string>
+
+    <!-- Cycles -->
+    <string name="data_periood">periuud</string>
+    <string name="data_veerand">veeränd</string>
+    <string name="data_arvestuste_n2dal">arvõstuisi nätäl</string>
+    <string name="data_k6ik_klassid">kõik klassiq</string>
+
+    <!-- Languages -->
+    <string name="data_v66rkeel">võõrkiil</string>
+    <string name="data_eesti_keel">eesti kiil</string>
+    <string name="data_hiina_keel">hiina kiil</string>
+    <string name="data_hispaania_keel">hispaania kiil</string>
+    <string name="data_jaapani_keel">jaapani kiil</string>
+    <string name="data_inglise_keel">inglüse kiil</string>
+    <string name="data_inglise_h22lduskursus">inglüse välläütlemiskursus</string>
+    <string name="data_ladina_keel">ladina kiil</string>
+    <string name="data_rootsi_keel">roodsi kiil</string>
+    <string name="data_prantsuse_keel">prantsusõ kiil</string>
+    <string name="data_saksa_keel">s\'aksa kiil</string>
+    <string name="data_soome_keel">soomõ kiil</string>
+    <string name="data_vene_keel">vinne kiil</string>
+
+    <!-- National -->
+    <string name="data_euroopa">Euruupa</string>
+    <string name="data_euroopa_liit">Euruupa Liit</string>
+    <string name="data_briti_film">Briti kino</string>
+    <string name="data_ameerika_yhiskond_ja_kultuur">Ameeriga ütiskund ja kultuur</string>
+    <string name="data_briti_yhiskond_ja_kultuur">Briti ütiskund ja kultuur</string>
+    <string name="data_p2rimuslugu">perimüsjutt</string>
+    <string name="data_rahvatants">rahvatands</string>
+    <string name="data_rahvuslik_k2sit88">rahva käsitüü</string>
+
+    <!-- Basic subjects -->
+    <string name="data_kehaline_kasvatus">liigutõlõminõ</string>
+    <string name="data_konsultatsioon">nõvvuandminõ</string>
+    <string name="data_klassitund">klassitunn</string>
+    <string name="data_koorilaul">koorilaul</string>
+    <!-- Science sujbects -->
+    <string name="data_fyysika">füüsiga</string>
+    <string name="data_fyysika_labor">füüsiga tüütarõ</string>
+    <string name="data_astronoomia">taivatiidüs</string>
+    <string name="data_bioloogia">bioloogia</string>
+    <string name="data_geograafia">maatiidüs</string>
+    <string name="data_keemia">keemiä</string>
+    <string name="data_loodusteadused">luudustiidüüseq</string>
+    <string name="data_tehnoloogia">teknoloogia</string>
+    <string name="data_loogika">loogiga</string>
+    <string name="data_matem">matõm</string>
+    <string name="data_matemaatika">matõmaatiga</string>
+    <string name="data_kitsas">kitsas</string>
+    <string name="data_lai">lagja</string>
+    <string name="data_alused">alosõq</string>
+    <string name="data_programmeerimine">programmiirmine</string>
+    <string name="data_programmeerimise_alused">programmiirmise alosõq</string>
+    <string name="data_uurimist88de_alused">uurmistüü alosõq</string>
+
+    <!-- Humanitarian and social subjects -->
+    <string name="data_kunst">kunst</string>
+    <string name="data_ajalugu">aolugu</string>
+    <string name="data_l2hiajalugu">lähkümb aolugu</string>
+    <string name="data_filosoofia">mõttõtiidüs</string>
+    <string name="data_yhiskond">ütiskund</string>
+    <string name="data_kirjandus">kirändüs</string>
+    <string name="data_muusika">muusiga</string>
+    <string name="data_psyhholoogia">psükoloogia</string>
+    <string name="data_retoorika">kõnnõkunst</string>
+    <string name="data_usundi6petus">usotiidüs</string>
+    <string name="data_v2itlus">vaiõlus</string>
+    <string name="data_yhiskonna6petus">ütiskunnatiidüs</string>
+    <string name="data_inimese6petus">inemisetiidüs</string>
+    <string name="data_inimene_ja_6igus">inemine ja õigus</string>
+
+    <!-- Others -->
+    <string name="data_keskkonnakeemia">keskkunnakeemiä</string>
+    <string name="data_bioinformaatika">biopuutritiidüs</string>
+    <string name="data_geoinformaatika">geopuutritiidüs</string>
+    <string name="data_planimeetria">planimeetriä</string>
+    <string name="data_fotograafia">pildistämine</string>
+    <string name="data_joonestamine">joonõtaminõ</string>
+    <string name="data_koomiksikursus">nal\'apildikursus</string>
+    <string name="data_majandus6petus">majandusoppus</string>
+    <string name="data_ettev6tlus6pe">ettevõtmisoppus</string>
+    <string name="data_muuseumivarandused">muusõumivaraq</string>
+    <string name="data_muusikaline_kirjaoskus">muusikalinõ kirämõistminõ</string>
+    <string name="data_riigikaitse">riigikaidsõq</string>
+    <string name="data_ruumidisain">tarõkujondus</string>
+    <string name="data_trykikunst">trükükunst</string>
+    <string name="data_veebidisain">võrgukujondus</string>
+    <string name="data_kyberkaitse">võrgukaidsõq</string>
+    <string name="data_6pioskuste_kursus">opimõistmiisi kursus</string>
+    <string name="data_6limaal">õlimaal</string>
+    <string name="data_klaasisulatus">klaasisulataminõ</string>
+    <string name="data_infop2devus">teedüsetundminõ</string>
+    <string name="data_projektikirjutamis6petus">projektikirotamisoppus</string>
+    <string name="data_3d_modelleerimine">3D-kujondaminõ</string>
+    <string name="data_astrofyysika">astrofüüsiga</string>
+
+    <!-- Constructors -->
+    <string name="data_esimene">edimäne</string>
+    <string name="data_teine">tõõnõ</string>
+    <string name="data_kolmas">kolmas</string>
+
+    <string name="data_maailm">ilm</string>
+    <string name="data_maailma">ilma</string>
+
+    <string name="data_kultuur">kultuur</string>
+    <string name="data_kultuurid">kultuuriq</string>
+    <string name="data_labor">tüütarõ</string>
+
+    <string name="data_tsivilisatsioon">tsivilisatsiuun</string>
+    <string name="data_tsivilisatsioonid">tsivilisatsiooniq</string>
+    <string name="data_v2ljaspool">välänpuul</string>
+
+    <string name="data_globaalne">üleilmalinõ</string>
+    <string name="data_globaliseeruv">üleilmalidsõs minnev</string>
+    <string name="data_antiigist">antiigist</string>
+    <string name="data_sajand">aastagasada</string>
+    <string name="data_sajandini">aastagasaani</string>
+
+    <string name="data_loominguline">luumisõga köüdet</string>
+    <string name="data_looming">luudu</string>
+    <string name="data_joonistamine">joonistaminõ</string>
+    <string name="data_lugemine">lugõminõ</string>
+    <string name="data_online_lugemine">võrgulugõminõ</string>
+    <string name="data_draama">trama</string>
+    <string name="data_teater">näütemäng</string>
+
+    <string name="data_kursus">kursus</string>
+    <string name="data_seminar">seminär</string>
+    <string name="data_juhendaja">nõvvuandja</string>
+    <string name="data_6pilane">opilanõ</string>
+
+    <string name="data_arvuti">puutri</string>
+    <string name="data_auditoorium">loengusaal</string>
+    <string name="data_keskkond">keskkund</string>
+    <string name="data_tasanduskursus">tasanduskursus</string>
+    <string name="data_2rikeel">ärikiil</string>
+    <string name="data_riigieksam">riigieksäm</string>
+    <string name="data_koolieksam">koolieksäm</string>
+    <string name="data_loovkirjutamine">luumiskirotamine</string>
+    <string name="data_praktikum">tüütarõ</string>
+    <string name="data_mitmekultuuriline">mitmõkultuurilinõ</string>
+    <string name="data_olympiaadikursus">tiidmiisivõigõluskursus</string>
+    <string name="data_toetuskursus">tugõmiskursus</string>
+    <string name="data_uurimist88de">uurmistöie</string>
+    <string name="data_t2iendav">mano</string>
+    <string name="data_t2iendavaid">\@string/data_t2iendav</string>
+    <string name="data_t2iendavaid_teadmisi">mano tiidmiisi</string>
+
+    <!-- Lisatud -->
+    <string name="data_a_keel">a-kiil</string>
+    <string name="data_ajaloo">aoluu</string>
+    <string name="data_praktiline">praktilinõ</string>
+    <string name="data_arvestus">arvõstuisi nätäl</string>
+    <string name="data_eesti_kunst">eesti kunst</string>
+    <string name="data_eesti_muusika">eesti muusiga</string>
+    <string name="data_element">osa</string>
+    <string name="data_elemente">ossõ</string>
+    <string name="data_inimene">inemine</string>
+    <string name="data_javas">Javan</string>
+    <string name="data_k88gifyysika">köögifüüsiga</string>
+    <string name="data_kompositsioon">kokkosäetüs</string>
+    <string name="data_loomade_k2itumine">eläjide ülevänpidämine</string>
+    <string name="data_maailmausundid">maailma usoq</string>
+    <string name="data_meedia">aokirändüs</string>
+    <string name="data_meediakursus">aokirändüse kursus</string>
+    <string name="data_mehhatroonika">mekatrooniga</string>
+    <string name="data_natuurist_joonistamine">elost joonistaminõ</string>
+    <string name="data_pythonis">Pythonin</string>
+    <string name="data_rakendus">rakõndus</string>
+    <string name="data_rakendusi">rakõnduisi</string>
+    <string name="data_robootika">robootiga</string>
+    <string name="data_tarbekeraamika">savitüükunst</string>
+    <string name="data_teadusajalugu">tiidüsaolugu</string>
+    <string name="data_v2rvus">värm</string>
+    <string name="data_euroopat">Euruupat</string>
+    <string name="data_inglise_keele">inglüse keele</string>
+    <string name="data_keskkonna">keskkunna</string>
+    <string name="data_koolieksami">koolieksämi</string>
+    <string name="data_kunsti">kunsti</string>
+    <string name="data_programmeerimise">programmiirmise</string>
+
+</resources>

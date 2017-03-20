@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Mein Poska</string>
+
+    <!-- Vaated -->
+    <string name="activity_tera_title">Tera</string>
+
+    <!-- Notifications -->
+
+    <!--  Menüüsahtel -->
+
+    <!-- Kalender -->
+    <string name="today">Heute</string>
+    <string name="yesterday">Gestern</string>
+    <string name="day_before_yesterday">Vorgestern</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="day_after_tomorrow">Übermorgen</string>
+
+    <string name="last">Letzte</string>
+    <string name="next">Nächste</string>
+    <string name="since">Seit</string>
+
+    <string name="monday">Montag</string>
+    <string name="monday_short">Mon</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="tuesday_short">Die</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="wednesday_short">Mit</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="thursday_short">Don</string>
+    <string name="friday">Freitag</string>
+    <string name="friday_short">Fre</string>
+    <string name="saturday">Samstag</string>
+    <string name="saturday_short">Sam</string>
+    <string name="sunday">Sonntag</string>
+    <string name="sunday_short">Son</string>
+
+    <!-- Kodused ülesanded -->
+    <string name="test">Test</string>
+
+    <!-- Veeb -->
+    <string name="html_error_page" formatted="false"><![CDATA[<html><center><strong>Fehlercode: %s</strong><br><a href=\"%s\">Vajuta siia, et uuesti proovida.</a></center></html>]]></string>
+
+    <!-- Tunniplaan -->
+
+    <string name="filter_teacher">Lehrer</string>
+    <string name="filter_classroom">Klassenraum</string>
+    <string name="filter_subject">Aine</string>
+    <string name="filter_all">Alle</string>
+
+    <!-- Sätted -->
+
+    <string name="language_english">Englisch (English)</string>
+    <string name="language_estonian">Estnisch (Eesti)</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_russian">Russisch (Русский)</string>
+    <string name="language_voro">Võro (Võro)</string>
+
+    <!-- EULA -->
+
+    <!-- Andmete tõlkimine -->
+    <string name="data_ja">und</string>
+    <string name="data_või">oder</string>
+
+    <!-- Cycles -->
+
+    <!-- Languages -->
+    <string name="data_v66rkeel">fremdsprache</string>
+    <string name="data_eesti_keel">estnisch</string>
+    <string name="data_hiina_keel">chinesisch</string>
+    <string name="data_hispaania_keel">spanisch</string>
+    <string name="data_inglise_keel">englisch</string>
+    <string name="data_ladina_keel">lateinisch</string>
+    <string name="data_rootsi_keel">schwedisch</string>
+    <string name="data_prantsuse_keel">französisch</string>
+    <string name="data_saksa_keel">deutsch</string>
+    <string name="data_soome_keel">finnisch</string>
+    <string name="data_vene_keel">russisch</string>
+
+    <!-- National -->
+    <string name="data_euroopa">Europa</string>
+    <string name="data_euroopa_liit">Europäischen Union</string>
+    <string name="data_briti_film">britisch Kino</string>
+
+    <!-- Basic subjects -->
+    <string name="data_kehaline_kasvatus">Sport</string>
+    <string name="data_koorilaul">Chor</string>
+    <!-- Science sujbects -->
+    <string name="data_fyysika">Physik</string>
+    <string name="data_fyysika_labor">Physiklabor</string>
+    <string name="data_astronoomia">Astronomie</string>
+    <string name="data_bioloogia">Biologie</string>
+    <string name="data_geograafia">Erdkunde</string>
+    <string name="data_keemia">Chemie</string>
+    <string name="data_loodusteadused">Naturwissenschaft</string>
+    <string name="data_tehnoloogia">Technologie</string>
+    <string name="data_loogika">Logik</string>
+    <string name="data_matem">Mathe</string>
+    <string name="data_matemaatika">Mathematik</string>
+    <string name="data_kitsas">eng</string>
+    <string name="data_lai">weit</string>
+    <string name="data_programmeerimise_alused">Grundlagen der Programmierung</string>
+
+    <!-- Humanitarian and social subjects -->
+    <string name="data_kunst">Kunst</string>
+    <string name="data_ajalugu">Historie</string>
+    <string name="data_filosoofia">Philosophie</string>
+    <string name="data_kirjandus">Literatur</string>
+    <string name="data_muusika">Musik</string>
+    <string name="data_psyhholoogia">Psychologie</string>
+    <string name="data_retoorika">Redekunst</string>
+    <string name="data_usundi6petus">Religion</string>
+    <string name="data_v2itlus">Debatte</string>
+    <string name="data_yhiskonna6petus">Sozialerziehung</string>
+
+    <!-- Others -->
+    <string name="data_fotograafia">Photographie</string>
+    <string name="data_veebidisain">Webdesign</string>
+
+    <!-- Constructors -->
+
+    <string name="data_arvuti">Computer</string>
+
+</resources>

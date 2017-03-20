@@ -1,0 +1,21 @@
+ #container #login {
+     background-color: #FFFFFF !important;
+     border: 0 !important;
+ }
+
+ #container {
+     border: 0 !important;
+     box-shadow: none !important;
+ }
+
+ #appstore-links {
+     display: none !important;
+ }
+
+ html, body {
+     background-color: #FFFFFF !important;
+ }
+
+ #container #header {
+    background-color: #3F51B5 !important;
+ }

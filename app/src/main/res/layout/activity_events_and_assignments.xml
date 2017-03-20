@@ -1,0 +1,88 @@
+<ee.tartu.jpg.minuposka.ui.widget.CustomDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- The content. -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/headerbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary"
+                    android:elevation="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="@dimen/spacing_large"
+                        android:text="@string/activity_events_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/primary_text_light" />
+
+                    <TextView
+                        android:id="@+id/assignments_title"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="@dimen/spacing_large"
+                        android:text="@string/activity_assignments_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/primary_text_light" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/headerbar"
+                    android:orientation="horizontal">
+
+                    <fragment
+                        android:id="@+id/events_fragment"
+                        android:name="ee.tartu.jpg.minuposka.ui.fragment.EventsFragment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <fragment
+                        android:id="@+id/assignments_fragment"
+                        android:name="ee.tartu.jpg.minuposka.ui.fragment.AssignmentsFragment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- The drawer. -->
+    <include layout="@layout/drawer" />
+</ee.tartu.jpg.minuposka.ui.widget.CustomDrawerLayout>

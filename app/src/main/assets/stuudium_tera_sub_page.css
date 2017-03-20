@@ -1,0 +1,42 @@
+#globalheader-container {
+    display: none !important;
+}
+
+#XAPP_globalheader_cont {
+    display: none !important;
+}
+
+#stuudium-navigation-container {
+    display: none !important;
+}
+
+#header {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.content_container {
+    width: auto !important;
+}
+
+#dashboard {
+    padding-top: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    width: auto !important;
+}
+
+.course_nav {
+    padding-top: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    width: auto !important;
+}
+
+.nodetree {
+    margin-top: 0 !important;
+}
+
+#appstore-links {
+    display: none !important;
+}

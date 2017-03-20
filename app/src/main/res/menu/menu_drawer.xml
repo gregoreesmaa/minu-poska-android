@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupLogin"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_login"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/drawer_login_item" />
+    </group>
+    <group
+        android:id="@+id/groupStuudium"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_events"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="@string/drawer_events_item" />
+        <item
+            android:id="@+id/drawer_assignments"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/drawer_assignments_item" />
+        <item
+            android:id="@+id/drawer_messages"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/drawer_messages_item" />
+        <item
+            android:id="@+id/drawer_tera"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="@string/drawer_tera_item" />
+    </group>
+    <group
+        android:id="@+id/groupSchedules"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_my_schedule"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="@string/drawer_my_schedule_item" />
+        <item
+            android:id="@+id/drawer_schedules"
+            android:icon="@drawable/ic_view_agenda_black_24dp"
+            android:title="@string/drawer_schedules_item" />
+    </group>
+    <group
+        android:id="@+id/groupSettings"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/drawer_settings_item" />
+    </group>
+</menu>

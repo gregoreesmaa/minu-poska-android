@@ -1,0 +1,134 @@
+<!--
+  Copyright 2014 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<ee.tartu.jpg.minuposka.ui.widget.CustomDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:minuposka="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e5e5e5"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/minuposka_logo"
+            android:tint="#7000" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            minuposka:cardBackgroundColor="#fff"
+            minuposka:cardCornerRadius="@dimen/cardview_radius"
+            minuposka:cardElevation="@dimen/cardview_elevation"
+            minuposka:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="48dp"
+                        android:paddingLeft="72dp"
+                        android:paddingRight="72dp"
+                        android:paddingTop="48dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/welcome_to_my_poska_app"
+                            android:textColor="@color/primary"
+                            android:textSize="@dimen/text_size_xlarge" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:autoLink="web"
+                            android:text="@string/welcome_text"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <Spinner
+                            android:id="@+id/language_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/languagesArray"
+                            android:paddingTop="@dimen/spacing_medium" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:autoLink="web"
+                            android:text="@string/eula_legal_text"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/text_size_medium" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+                <!-- Button bar -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/primary">
+
+                    <Button
+                        android:id="@+id/button_decline"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?photoItemForeground"
+                        android:text="@string/decline"
+                        android:textAllCaps="true"
+                        android:textColor="#8fff"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <Button
+                        android:id="@+id/button_accept"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?photoItemForeground"
+                        android:text="@string/accept"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/text_size_medium" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</ee.tartu.jpg.minuposka.ui.widget.CustomDrawerLayout>

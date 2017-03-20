@@ -1,0 +1,326 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">My Poska</string>
+
+    <!-- Activities -->
+    <string name="activity_login_title">Log In</string>
+    <string name="activity_events_title">Events</string>
+    <string name="activity_assignments_title">Assignments</string>
+    <string name="activity_events_and_assignments_title">Events and assignments</string>
+    <string name="activity_messages_title">Messages</string>
+    <string name="activity_tera_title">Tera</string>
+    <string name="activity_my_schedule_title">My Schedule</string>
+    <string name="activity_schedules_title">Schedules</string>
+    <string name="activity_settings_title">Settings</string>
+
+    <!-- Notifications -->
+    <string name="homework_notification_title">Next schoolday</string>
+    <string name="homework_notification_1">Task to do in %1$s</string>
+    <string name="homework_notification_n">Tasks to do in: %1$s</string>
+    <string name="lesson_notification_title">Next lesson</string>
+    <string name="lesson_notification" translatable="false">%1$s / %2$s / %3$s</string>
+    <string name="lesson_notification_nolocation" translatable="false">%1$s / %2$s</string>
+
+    <!-- Drawer items -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Calendar -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="day_before_yesterday">Day before yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="day_after_tomorrow">Day after tomorrow</string>
+
+    <string name="next">Next</string>
+    <string name="last">Last</string>
+    <string name="since">Since</string>
+
+    <string name="monday">Monday</string>
+    <string name="monday_short">Mon</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday">Thursday</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday">Friday</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday">Saturday</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday">Sunday</string>
+    <string name="sunday_short">Sun</string>
+
+    <string name="show_earlier_tasks">show earlier tasks ↑</string>
+
+    <!-- Grades -->
+    <string name="test">Test</string>
+
+    <!-- Web -->
+    <string name="html_error_page" formatted="false"><![CDATA[<html><center><strong>Error code: %s</strong><br><a href=\"%s\">Click here to retry.</a></center></html>]]></string>
+
+    <!-- Timetable -->
+    <string name="action_choose_filter">Choose here</string>
+
+    <string name="select_filter_title">Select filter</string>
+    <string name="filter_form">Form</string>
+    <string name="filter_teacher">Teacher</string>
+    <string name="filter_classroom">Classroom</string>
+    <string name="filter_subject">Subject</string>
+    <string name="filter_all">All</string>
+    <string name="select_timetable_title">Select timetable</string>
+
+    <string name="last_modified">Last modified</string>
+    <string name="last_checked">Last checked</string>
+
+    <!-- Preferences -->
+    <string name="preference_log_out_summary">Logs you out of Stuudium.</string>
+    <string name="preference_log_out">Log out</string>
+    <string name="preference_display_event_notifications_summary">Shows notifications about new events in Stuudium. Checks every 30 minutes.</string>
+    <string name="preference_display_homework_notification_summary">Shows a notification if there are tasks to do for the next day. Will be shown between 17:00 and 10:00.</string>
+    <string name="preference_display_lesson_notification_summary">Shows a notification with the information about the next lesson. Will be shown 45 minutes before to 15 after the lesson starts.</string>
+    <string name="preference_display_event_notifications_title">Notify me about events</string>
+    <string name="preference_display_homework_notification_title">Notify me about homework</string>
+    <string name="preference_display_lesson_notification_title">Notify me about next lesson</string>
+    <string name="preference_language_switcher_summary">Choose which language the UI will be displayed in.</string>
+    <string name="preference_language_switcher_title">Choose UI language</string>
+
+    <string name="preference_log_out_confirmation">Are you sure you wish to be logged out of Stuudium?</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="language_english">English</string>
+    <string name="language_estonian">Estonian (Eesti)</string>
+    <string name="language_german">German (Deutsch)</string>
+    <string name="language_russian">Russian (Русский)</string>
+    <string name="language_voro">Võro (Võro)</string>
+
+    <!-- EULA -->
+    <string name="welcome_to_my_poska_app">Welcome to My Poska app</string>
+    <string name="welcome_text">Before you start, read through the following text. It\'ll only take a moment.</string>
+    <string name="eula_legal_text">The authors of this app are Gregor Eesmaa and Helen Õunapuu, the owners are Tartu Jaan Poska Gymnasium and Stuudium. No party claims responsibility of correctness of the data in the app.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <!-- Data translation -->
+    <string name="data_ja">and</string>
+    <string name="data_või">or</string>
+
+    <!-- Cycles -->
+    <string name="data_periood">period</string>
+    <string name="data_veerand">quarter</string>
+    <string name="data_arvestuste_n2dal">exam-week</string>
+    <string name="data_k6ik_klassid">all forms</string>
+
+    <!-- Languages -->
+    <string name="data_v66rkeel">foreign language</string>
+    <string name="data_a_keel">a-language</string>
+    <string name="data_eesti_keel">Estonian</string>
+    <string name="data_hiina_keel">Chinese</string>
+    <string name="data_hispaania_keel">Spanish</string>
+    <string name="data_jaapani_keel">Japanese</string>
+    <string name="data_inglise_keel">English</string>
+    <string name="data_inglise_h22lduskursus">English pronunciation</string>
+    <string name="data_ladina_keel">Latin</string>
+    <string name="data_rootsi_keel">Swedish</string>
+    <string name="data_prantsuse_keel">French</string>
+    <string name="data_saksa_keel">German</string>
+    <string name="data_soome_keel">Finnish</string>
+    <string name="data_vene_keel">Russian</string>
+
+    <!-- National -->
+    <string name="data_euroopa">Europe</string>
+    <string name="data_euroopa_liit">European Union</string>
+    <string name="data_briti_film">British cinema</string>
+    <string name="data_ameerika_yhiskond_ja_kultuur">American society and culture</string>
+    <string name="data_briti_yhiskond_ja_kultuur">British society and culture</string>
+    <string name="data_p2rimuslugu">folk history</string>
+    <string name="data_eesti_kunst">estonian art</string>
+    <string name="data_eesti_muusika">estonian music</string>
+    <string name="data_rahvuslik_k2sit88">folk craft</string>
+
+    <!-- Basic subjects -->
+    <string name="data_kehaline_kasvatus">physical education</string>
+    <string name="data_konsultatsioon">consultation</string>
+    <string name="data_klassitund">class meetup</string>
+    <string name="data_koorilaul">choir</string>
+    <!-- Science sujbects -->
+    <string name="data_fyysika">physics</string>
+    <string name="data_fyysika_labor">physics lab</string>
+    <string name="data_k88gifyysika">kitchen physics</string>
+    <string name="data_astronoomia">astronomy</string>
+    <string name="data_bioloogia">biology</string>
+    <string name="data_loomade_k2itumine">animal behaviour</string>
+    <string name="data_geograafia">geography</string>
+    <string name="data_keemia">chemistry</string>
+    <string name="data_loodusteadused">science</string>
+    <string name="data_tehnoloogia">technology</string>
+    <string name="data_loogika">logic</string>
+    <string name="data_matem">math</string>
+    <string name="data_matemaatika">mathematics</string>
+    <string name="data_kitsas">narrow</string>
+    <string name="data_lai">extended</string>
+    <string name="data_alused">basics</string>
+    <string name="data_programmeerimine">programming</string>
+    <string name="data_programmeerimise_alused">programming basics</string>
+    <string name="data_uurimist88de_alused">research basics</string>
+
+    <!-- Humanitarian and social subjects -->
+    <string name="data_kunst">art</string>
+    <string name="data_ajalugu">history</string>
+    <string name="data_filosoofia">philosophy</string>
+    <string name="data_yhiskond">society</string>
+    <string name="data_kirjandus">literature</string>
+    <string name="data_muusika">music</string>
+    <string name="data_psyhholoogia">psychology</string>
+    <string name="data_retoorika">rhetoric</string>
+    <string name="data_usundi6petus">religion</string>
+    <string name="data_v2itlus">debate</string>
+    <string name="data_yhiskonna6petus">social education</string>
+    <string name="data_inimese6petus">human studies</string>
+    <string name="data_inimene_ja_6igus">man and law</string>
+    <string name="data_maailmausundid">world\'s religions</string>
+
+    <!-- Others -->
+    <string name="data_keskkonnakeemia">environment chemistry</string>
+    <string name="data_bioinformaatika">bioinformatics</string>
+    <string name="data_geoinformaatika">geoinformatics</string>
+    <string name="data_planimeetria">planimetry</string>
+    <string name="data_fotograafia">photography</string>
+    <string name="data_joonestamine">drafting</string>
+    <string name="data_koomiksikursus">comic course</string>
+    <string name="data_majandus6petus">economic studies</string>
+    <string name="data_ettev6tlus6pe">entrepreneurial studies</string>
+    <string name="data_muuseumivarandused">museum treasures</string>
+    <string name="data_muusikaline_kirjaoskus">musical writing</string>
+    <string name="data_riigikaitse">national defense</string>
+    <string name="data_ruumidisain">spacial design</string>
+    <string name="data_trykikunst">printing</string>
+    <string name="data_veebidisain">web design</string>
+    <string name="data_6pioskuste_kursus">learning skills</string>
+    <string name="data_6limaal">oil painting</string>
+    <string name="data_klaasisulatus">glass melting</string>
+    <string name="data_infop2devus">information competence</string>
+    <string name="data_projektikirjutamis6petus">project writing</string>
+    <string name="data_meediakursus">media course</string>
+    <string name="data_robootika">robotics</string>
+    <string name="data_mehhatroonika">mechatronics</string>
+    <string name="data_natuurist_joonistamine">drawing from nature</string>
+    <string name="data_tarbekeraamika">consumption ceramics</string>
+    <string name="data_teadusajalugu">history of science</string>
+    <string name="data_draama">drama</string>
+    <string name="data_astrofyysika">astrophysics</string>
+    <string name="data_3d_modelleerimine">3D modelling</string>
+    <string name="data_kyberkaitse">cyber defence</string>
+    <string name="data_l2hiajalugu">close history</string>
+    <string name="data_rahvatants">folk dance</string>
+
+    <!-- Constructors -->
+    <string name="data_esimene">first</string>
+    <string name="data_teine">second</string>
+    <string name="data_kolmas">third</string>
+
+    <string name="data_maailm">world</string>
+    <string name="data_maailma">world\'s</string>
+
+    <string name="data_kultuur">culture</string>
+    <string name="data_kultuurid">cultures</string>
+    <string name="data_labor">laboratory</string>
+
+    <string name="data_tsivilisatsioon">civilisation</string>
+    <string name="data_tsivilisatsioonid">civilisations</string>
+    <string name="data_v2ljaspool">outside</string>
+
+    <string name="data_globaalne">global</string>
+    <string name="data_globaliseeruv">globalizing</string>
+    <string name="data_antiigist">from antique to</string>
+    <string name="data_ajaloo">history\'s</string>
+    <string name="data_sajand">century</string>
+    <string name="data_inimene">human</string>
+    <string name="data_element">element</string>
+    <string name="data_elemente">elements</string>
+    <string name="data_rakendus">application</string>
+    <string name="data_rakendusi">applications</string>
+    <string name="data_meedia">media</string>
+    <string name="data_kl">form</string>
+
+    <string name="data_pythonis">in Python</string>
+    <string name="data_javas">in Java</string>
+
+    <string name="data_loominguline">creative</string>
+    <string name="data_looming">creativity</string>
+    <string name="data_joonistamine">drawing</string>
+
+    <string name="data_kursus">course</string>
+    <string name="data_seminar">workshop</string>
+    <string name="data_juhendaja">supervisor</string>
+    <string name="data_6pilane">student</string>
+
+    <string name="data_arvuti">computer</string>
+    <string name="data_auditoorium">auditorium</string>
+    <string name="data_keskkond">environment</string>
+    <string name="data_tasanduskursus">levelling</string>
+    <string name="data_2rikeel">business language</string>
+    <string name="data_riigieksam">national exam</string>
+    <string name="data_koolieksam">school exam</string>
+    <string name="data_loovkirjutamine">creative writing</string>
+    <string name="data_praktikum">practice</string>
+    <string name="data_mitmekultuuriline">multicultural</string>
+    <string name="data_olympiaadikursus">olympiad course</string>
+    <string name="data_toetuskursus">support</string>
+    <string name="data_uurimist88de">research</string>
+    <string name="data_t2iendav">additional</string>
+    <string name="data_v2rvus">colour</string>
+    <string name="data_kompositsioon">composition</string>
+
+    <string name="data_praktiline">practical</string>
+    <string name="data_online_lugemine">online reading</string>
+    <string name="data_teater">theatre</string>
+    <string name="data_lugemine">reading</string>
+
+    <!-- References or non linguistic things -->
+    <string name="drawer_login_item" translatable="false">@string/activity_login_title</string>
+    <string name="drawer_events_item" translatable="false">@string/activity_events_title</string>
+    <string name="drawer_assignments_item" translatable="false">@string/activity_assignments_title</string>
+    <string name="drawer_events_and_assignments_item" translatable="false">@string/activity_events_and_assignments_title</string>
+    <string name="drawer_messages_item" translatable="false">@string/activity_messages_title</string>
+    <string name="drawer_tera_item" translatable="false">@string/activity_tera_title</string>
+    <string name="drawer_my_schedule_item" translatable="false">@string/activity_my_schedule_title</string>
+    <string name="drawer_schedules_item" translatable="false">@string/activity_schedules_title</string>
+    <string name="drawer_settings_item" translatable="false">@string/activity_settings_title</string>
+
+    <string name="grade_separator" translatable="false">/</string>
+
+    <string name="data_esmasp2ev" translatable="false">@string/monday</string>
+    <string name="data_teisip2ev" translatable="false">@string/tuesday</string>
+    <string name="data_kolmap2ev" translatable="false">@string/wednesday</string>
+    <string name="data_neljap2ev" translatable="false">@string/thursday</string>
+    <string name="data_reede" translatable="false">@string/friday</string>
+    <string name="data_laup2ev" translatable="false">@string/saturday</string>
+    <string name="data_pyhap2ev" translatable="false">@string/sunday</string>
+
+    <!-- Forms -->
+    <string name="data_inglise_keele">@string/data_inglise_keel</string>
+    <string name="data_koolieksami">@string/data_koolieksam</string>
+    <string name="data_kunsti">@string/data_kunst</string>
+    <string name="data_sajandini">@string/data_sajand</string>
+    <string name="data_laborit8id_fyysikas" translatable="false">@string/data_fyysika_labor</string>
+    <string name="data_labort8id_fyysikas" translatable="false">@string/data_fyysika_labor</string>
+    <string name="data_keskkonna">@string/data_keskkond</string>
+    <string name="data_programmeerimise">@string/data_programmeerimine</string>
+    <string name="data_euroopat">@string/data_euroopa</string>
+    <string name="data_bioloogiast">@string/data_bioloogia</string>
+    <string name="data_t2iendavaid">@string/data_t2iendav</string>
+    <string name="data_6limaalimine">@string/data_6limaal</string>
+
+    <!-- Synonyms -->
+    <string name="data_arvestus">@string/data_arvestuste_n2dal</string>
+    <string name="data_t2iendavaid_teadmisi">@string/data_t2iendavaid</string>
+
+    <!-- Typos -->
+    <string name="data_fyyrika" translatable="false">@string/data_fyysika</string>
+    <string name="data_kusnti" translatable="false">@string/data_kunst</string>
+    <string name="data_yhisond" translatable="false">@string/data_yhiskond</string>
+    <string name="data_6pisokuste_kursus" translatable="false">@string/data_6pioskuste_kursus</string>
+    <string name="data_6pisokuste" translatable="false">@string/data_6pioskuste_kursus</string>
+
+</resources>

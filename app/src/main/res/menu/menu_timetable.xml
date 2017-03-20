@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:navi="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_timetableselector"
+        android:title=""
+        navi:showAsAction="withText|always" />
+    <item
+        android:id="@+id/action_filterselector"
+        android:title="@string/action_choose_filter"
+        navi:showAsAction="withText|always" />
+</menu>

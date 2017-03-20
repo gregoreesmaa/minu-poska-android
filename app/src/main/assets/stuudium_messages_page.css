@@ -1,0 +1,15 @@
+[data-role="open-nav-container"] {
+    display: none !important;
+}
+
+#globalheader-container {
+    display: none !important;
+}
+
+#stuudium-navigation-container {
+    display: none !important;
+}
+
+#appstore-links {
+    display: none !important;
+}

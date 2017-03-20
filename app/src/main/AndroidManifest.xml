@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ee.tartu.jpg.minuposka">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".PoskaApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_login_title" />
+        <activity
+            android:name=".ui.EventsActivity"
+            android:label="@string/activity_events_title" />
+        <activity
+            android:name=".ui.AssignmentsActivity"
+            android:label="@string/activity_assignments_title" />
+        <activity
+            android:name=".ui.EventsAndAssignmentsActivity"
+            android:label="@string/activity_events_and_assignments_title" />
+        <activity
+            android:name=".ui.MessagesActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_messages_title" />
+        <activity
+            android:name=".ui.TeraActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/activity_tera_title" />
+        <activity
+            android:name=".ui.MyScheduleActivity"
+            android:label="@string/activity_my_schedule_title" />
+        <activity
+            android:name=".ui.SchedulesActivity"
+            android:label="@string/activity_schedules_title" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:label="@string/activity_settings_title" />
+        <activity android:name=".ui.EulaActivity" />
+
+        <service
+            android:name=".service.DataUpdateService"
+            android:exported="false" />
+        <service
+            android:name=".service.NotificationService"
+            android:exported="false" />
+
+        <receiver android:name=".service.trigger.StuudiumUpdateScheduler" />
+        <receiver android:name=".service.trigger.TimetablesUpdateScheduler" />
+        <receiver android:name=".service.trigger.LessonNotificationScheduler" />
+        <receiver android:name=".service.trigger.HomeworkNotificationScheduler" />
+        <receiver android:name=".service.trigger.DeviceBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

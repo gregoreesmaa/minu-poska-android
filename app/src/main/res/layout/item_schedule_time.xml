@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/schedule_row_height"
+    android:elevation="2dp"
+    android:gravity="end"
+    android:maxHeight="@dimen/schedule_row_height"
+    android:minHeight="@dimen/schedule_row_height"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_medium">
+
+    <TextView
+        android:id="@+id/scheduleNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/scheduleStartTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:20"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/scheduleEndTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:35"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>

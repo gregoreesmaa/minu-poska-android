@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="schedule_row_height">86sp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="navdrawer_profile_image_size">64dp</dimen>
+    <dimen name="drawer_size">300dp</dimen>
+
+    <dimen name="cardview_radius">@dimen/cardview_default_radius</dimen>
+    <dimen name="cardview_elevation">@dimen/cardview_default_elevation</dimen>
+    <dimen name="cardview_header_elevation">@dimen/cardview_default_elevation</dimen>
+    <dimen name="schedule_row_header_height">43sp</dimen>
+
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+
+</resources>

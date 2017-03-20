@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    repositories { mavenCentral() }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    compileOptions.encoding = 'utf-8'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Android artifacts
+    // Support
+    compile 'com.android.support:support-v13:25.3.0'
+}

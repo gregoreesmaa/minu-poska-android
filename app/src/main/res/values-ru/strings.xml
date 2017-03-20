@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Мой Poska</string>
+
+    <!-- Vaated -->
+    <string name="activity_login_title">Авторизоваться</string>
+    <string name="activity_assignments_title">Задании</string>
+    <string name="activity_events_and_assignments_title">Sündmused и задании</string>
+    <string name="activity_messages_title">Сообщении</string>
+    <string name="activity_my_schedule_title">Мое расписание</string>
+    <string name="activity_schedules_title">Расписание</string>
+    <string name="activity_settings_title">Настройки</string>
+
+    <!-- Notifications -->
+
+    <!--  Menüüsahtel -->
+    <string name="open">Открой</string>
+    <string name="close">Закрой</string>
+
+    <!-- Kalender -->
+    <string name="today">Cегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="day_before_yesterday">Позавчера</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="day_after_tomorrow">Послезавтра</string>
+
+    <string name="last">Предыдущий</string>
+    <string name="next">Следующий</string>
+    <string name="since">Поскольку</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="monday_short">Пон</string>
+    <string name="tuesday">Вторник</string>
+    <string name="tuesday_short">Вто</string>
+    <string name="wednesday">Среда</string>
+    <string name="wednesday_short">Сре</string>
+    <string name="thursday">Четверг</string>
+    <string name="thursday_short">Чет</string>
+    <string name="friday">Пятница</string>
+    <string name="friday_short">Пят</string>
+    <string name="saturday">Суббота</string>
+    <string name="saturday_short">Суб</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="sunday_short">Вос</string>
+
+    <!-- Kodused ülesanded -->
+    <string name="show_earlier_tasks">Показать предыдущие задания ↑</string>
+    <string name="test">Контрольная работа</string>
+
+    <!-- Web -->
+    <string name="html_error_page" formatted="false"><![CDATA[<html><center><strong>Vea kood: %s</strong><br><a href=\"%s\">Нажмите здесь, чтобы пытаться еще раз.</a></center></html>]]></string>
+
+    <!-- Timetable -->
+
+    <string name="filter_teacher">Учитель</string>
+    <string name="filter_subject">Предмет</string>
+    <string name="filter_all">Все</string>
+    <string name="select_timetable_title">Выберите расписание</string>
+
+    <!-- Preferences -->
+    <string name="preference_log_out">Выйти</string>
+
+    <string name="cancel">Отмена</string>
+
+    <string name="language_english">Английский (English)</string>
+    <string name="language_estonian">Эстонский (Eesti)</string>
+    <string name="language_german">Немецкий (Deutsch)</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_voro">Выруский (Võro)</string>
+
+    <!-- EULA -->
+
+    <!-- Data translation -->
+    <string name="data_ja">и</string>
+    <string name="data_või">или</string>
+
+    <!-- Cycles -->
+    <string name="data_periood">Период</string>
+    <string name="data_veerand">Четверть</string>
+    <string name="data_arvestuste_n2dal">Экзамен неделю</string>
+    <string name="data_k6ik_klassid">Все формы</string>
+
+    <!-- Languages -->
+    <string name="data_v66rkeel">иностранный язык</string>
+    <string name="data_eesti_keel">Эстонский язык</string>
+    <string name="data_hiina_keel">Китайский язык</string>
+    <string name="data_hispaania_keel">Испанский язык</string>
+    <string name="data_inglise_keel">Английский язык</string>
+    <string name="data_inglise_h22lduskursus">Английское произношение</string>
+    <string name="data_ladina_keel">Латинский язык</string>
+    <string name="data_rootsi_keel">Шведский язык</string>
+    <string name="data_prantsuse_keel">Французский язык</string>
+    <string name="data_saksa_keel">Немецкий язык</string>
+    <string name="data_soome_keel">Финский язык</string>
+    <string name="data_vene_keel">Русский язык</string>
+
+    <!-- National -->
+
+    <!-- Basic subjects -->
+    <!-- Science sujbects -->
+
+    <!-- Humanitarian and social subjects -->
+
+    <!-- Others -->
+
+    <!-- Constructors -->
+
+    <string name="activity_tera_title"></string>
+
+</resources>

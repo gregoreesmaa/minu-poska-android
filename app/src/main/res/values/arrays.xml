@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languagesArray">
+        <item>@string/language_estonian</item>
+        <item>@string/language_english</item>
+        <item>@string/language_german</item>
+        <item>@string/language_russian</item>
+        <item>@string/language_voro</item>
+    </string-array>
+    <string-array name="languagesValues" translatable="false">
+        <item>et</item>
+        <item>en</item>
+        <item>de</item>
+        <item>ru</item>
+        <item>wo</item>
+    </string-array>
+</resources>
