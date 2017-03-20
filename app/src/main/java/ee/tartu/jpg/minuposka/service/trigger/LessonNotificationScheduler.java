@@ -12,8 +12,8 @@ import java.util.List;
 
 import ee.tartu.jpg.minuposka.PoskaApplication;
 import ee.tartu.jpg.minuposka.service.NotificationService;
-import ee.tartu.jpg.minuposka.ui.util.DataUtils;
 import ee.tartu.jpg.minuposka.ui.filter.PersonalizedFilter;
+import ee.tartu.jpg.minuposka.ui.util.DataUtils;
 import ee.tartu.jpg.minuposka.ui.util.TextUtils;
 import ee.tartu.jpg.stuudium.Stuudium;
 import ee.tartu.jpg.timetable.Timetable;
@@ -111,7 +111,7 @@ public class LessonNotificationScheduler extends BroadcastReceiver {
         }
         // 2017 spring holidays because there is no better way
         //noinspection WrongConstant
-        if (nextLessonDate.get(Calendar.YEAR) == 2017 &&
+        if (nextLessonDate != null && nextLessonDate.get(Calendar.YEAR) == 2017 &&
                 (nextLessonDate.get(Calendar.MONTH) == Calendar.MARCH && nextLessonDate.get(Calendar.DAY_OF_MONTH) >= 18 && nextLessonDate.get(Calendar.DAY_OF_MONTH) <= 26
                         || nextLessonDate.get(Calendar.MONTH) == Calendar.APRIL && nextLessonDate.get(Calendar.DAY_OF_MONTH) >= 29
                         || nextLessonDate.get(Calendar.MONTH) == Calendar.MAY && nextLessonDate.get(Calendar.DAY_OF_MONTH) <= 2

@@ -257,7 +257,7 @@ public class Timetable implements Serializable {
     public Day getDayIn(int daysAfterToday) {
         List<Day> dayList = getAll(Day.class);
         int dayIdx = getDayIndexIn(daysAfterToday, dayList);
-        return dayIdx > 0 ? dayList.get(dayIdx) : null;
+        return dayIdx >= 0 ? dayList.get(dayIdx) : null;
     }
 
 }
