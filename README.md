@@ -47,7 +47,7 @@ Kui võti olemas, pane see faili **_app/src/main/java/.../PoskaApplication.java_
 
 ### aSc tunniplaanid
 
-Tunniplaanide hankimiseks kasutab äpp lihtsat PHP serverit (<http://jpg.tartu.ee/tunniplaan/xml/index.php>):
+Tunniplaanide hankimiseks kasutab äpp lihtsat PHP serverit (<http://example.com/tunniplaan/xml/index.php>):
 ```php
 <?php
     function endsWith($haystack, $needle) {
@@ -72,7 +72,7 @@ aSc's ekspordi tunniplaan vormingus Oman XML - 10 kirje piirangu teadet võib ig
 
 PHP skripti aadress pane faili **_app/src/main/java/.../PoskaApplication.java_** väljale `TIMETABLE_SCRIPT_URL`
 ```java
-    public static final String TIMETABLE_SCRIPT_URL = "http://jpg.tartu.ee/tunniplaan/xml/index.php"; // TODO Your timetable script address here
+    public static final String TIMETABLE_SCRIPT_URL = "http://example.com/tunniplaan/xml/index.php"; // TODO Your timetable script address here
 ``` 
 
 ### Värvid ja graafika
